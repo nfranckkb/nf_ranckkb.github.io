@@ -1,0 +1,91 @@
+.logo{
+    animation: apparition 0.8s ease-out;
+}
+@keyframes apparition {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.entete{ 
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    text-shadow: 20px 2px 2px rgba(0, 0, 0, .2);  
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style-type:square;
+}
+.esis{
+    position: relative;
+    text-align: center;
+    color: red;
+}
+h5{
+    color: red;
+    font-weight: bold;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 100vh){
+    .entete{
+        min-height: 30vh;
+    }
+}
+/* body{
+
+    background-color:rgba(255, 255, 255, 0.8);
+} */
+.change-color{
+    color: rgb(255, 255, 255);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.ecole{
+    font-size:3em ;
+    color: rgb(255, 255, 255);
+}
+.vision{
+    width: 75vh;
+    color: white;
+    font-size: x-large;
+ 
+}
+/* .couleur-white{
+    color: white;
+} */
+.btn{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+.bibliotheque{
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+
+}
+footer{
+    background-image: url('img/foot.svg');
+    background-size:cover;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}

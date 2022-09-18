@@ -1,0 +1,17 @@
+/* body{
+    background-color:;
+} */
+main{
+    background-color: white;
+    margin: 50px;
+}
+/* main div{
+    background-color: ;
+} */
+footer{
+    background-image: url('img/foot.svg');
+    background-size:cover;
+    height: auto;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
